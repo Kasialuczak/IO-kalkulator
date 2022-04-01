@@ -2,14 +2,14 @@
 def hello(name):
   return "Hello" + str(name)
 
-def odejmij(a,b):
+def minus(a,b):
 	return a-b
 
-def dodaj(a,b):
+def plus(a,b):
 	wynik= float(a) + float(b)
 	return wynik
 
 pierwsza = input()
 druga = input()
 
-print (dodaj(pierwsza, druga))
+print (plus(pierwsza, druga))
